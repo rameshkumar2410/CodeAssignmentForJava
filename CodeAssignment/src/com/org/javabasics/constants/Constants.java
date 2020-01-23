@@ -19,6 +19,10 @@ public class Constants {
 	public static final String fishSing="Fishes don’t sing";
 	public static final String fishWalk="Fishes don’t walk";
 	public static final String fishSwim="Fishes can Swim";
+	public static final String butterfly="A butterfly can fly";
+	public static final String butterflySound="A butterfly does not make a sound";
+	public static final String caterpillar="A caterpillar cannot fly";
+	public static final String caterpillarActivity="A caterpillar can crawl";
 
 	
 
