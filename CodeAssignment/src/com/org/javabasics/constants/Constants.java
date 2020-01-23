@@ -13,6 +13,12 @@ public class Constants {
 	public static final String birdfly="I am flying";
 	public static final String birdSing="I am singing";
 	public static final String roosterRelation="I am a male from the Chicken family";
+	public static final String fishBodyType="Clownfish are small and colourful";
+	public static final String fishActivity="Clownfish make jokes";
+	public static final String dolphinSwim="Dolphin can swim";
+	public static final String fishSing="Fishes don’t sing";
+	public static final String fishWalk="Fishes don’t walk";
+	public static final String fishSwim="Fishes can Swim";
 
 	
 
