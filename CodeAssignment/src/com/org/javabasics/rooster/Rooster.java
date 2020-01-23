@@ -1,5 +1,6 @@
 package com.org.javabasics.rooster;
 
+import com.org.javabasics.constants.Constants;
 import com.org.javabasics.rooster.interfaces.Chicken;
 
 /**
@@ -10,11 +11,11 @@ import com.org.javabasics.rooster.interfaces.Chicken;
 public class Rooster implements Chicken {
 	@Override
 	public String getSound() {
-		return "Cock-a-doodle-doo";
+		return Constants.rooster;
 	}
 
 	public String relation() {
-		return "I am a male from the Chicken family";
+		return Constants.roosterRelation;
 	}
 
 }

@@ -1,5 +1,7 @@
 package com.org.javabasics.birds;
 
+import com.org.javabasics.constants.Constants;
+
 /**
  * 
  * @author Ramesh
@@ -8,11 +10,11 @@ package com.org.javabasics.birds;
 public class Chicken extends SpecialBird {
 
 	public String activity() {
-		return "Chicken cannot fly";
+		return Constants.chickActivity;
 	}
 	
 	public String getSound() {
-		return "Cluck, cluck";
+		return Constants.chickSound;
 	}
 
 }

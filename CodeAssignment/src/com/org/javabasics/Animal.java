@@ -1,5 +1,7 @@
 package com.org.javabasics;
 
+import com.org.javabasics.constants.Constants;
+
 /**
  * 
  * @author Ramesh
@@ -8,7 +10,7 @@ package com.org.javabasics;
 public class Animal {
 
 	public String walk() {
-		return "I am walking";
+		return Constants.animalWalk;
 	}
 
 }

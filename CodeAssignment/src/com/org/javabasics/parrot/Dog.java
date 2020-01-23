@@ -1,5 +1,7 @@
 package com.org.javabasics.parrot;
 
+import com.org.javabasics.constants.Constants;
+
 /**
  * 
  * @author Ramesh
@@ -8,7 +10,7 @@ package com.org.javabasics.parrot;
 public class Dog extends Parrot{
 	@Override
 	public String parrotSays() {
-		return "Woof woof";
+		return Constants.dog;
 	}
 	
 }
